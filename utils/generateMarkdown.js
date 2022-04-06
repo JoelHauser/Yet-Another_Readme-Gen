@@ -153,23 +153,23 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Contributing](#contributing)
   
-  ## [Discription]
+  ## Discription
 
   ${data.description}
   
-  ## [Installation]
+  ## Installation
   
   ${data.installation}
   
-  ## [Usage]
+  ## Usage
 
   ${data.usage}
 
-  ## [Contribution]
+  ## Contribution
 
   ${renderCreditSection(data.confirmCredits, data.credits)}
 
-  ## [License]
+  ## License
   ${renderLicenseSection (data.license, data.credits)}
 `;
 }

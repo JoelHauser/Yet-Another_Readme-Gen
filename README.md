@@ -11,25 +11,25 @@
   * [License](#license)
   * [Contributing](#contributing)
   
-  ## [Discription]
+  ## Discription
 
   This repository makes life much easier for those who constantly have to manually create README.md files
   
-  ## [Installation]
+  ## Installation
   
   This is designed for programmers who use node.js, this is then ran through the command prompt. This application requires the user to install inquirer through the Node Package Manager(npm). Download the file and run it in a VScode, after that you will want to install node.js, once that is installed the user will need to run the following command in the command line "node init", once that is complete run the following command "npm i inquirer". After inquirer is installed simpily navagate to the "develop" directory and run "node index" in the command prompt. Once the questions are answered it will automatically generate your README.md
   
-  ## [Usage]
+  ## Usage
 
   Follow the instructions for how to use the application and follow the questions that are prompted!
 
-  ## [Contribution]
+  ## Contribution
 
   
     There are no extra contributers to list.
     
 
-  ## [License]
+  ## License
   Copyright 2022 undefined
 
         Permission is hereby granted, free of charge, to any person obtaining a copy of this 
