@@ -109,6 +109,19 @@ const questions = [
     }
   },
   {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email',
+
+    validate: emailInput => {
+      if (emailInput) {
+        return true
+      } else {
+        console.log("Please enter e-mail");
+      }
+    }
+  },
+  {
     type: "input",
     name: "username",
     message: "What is your GitHub username?",

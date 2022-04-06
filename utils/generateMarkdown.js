@@ -151,6 +151,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
+  * [Questions](#questions)
   * [Contributing](#contributing)
   
   ## Discription
@@ -168,6 +169,12 @@ function generateMarkdown(data) {
   ## Contribution
 
   ${renderCreditSection(data.confirmCredits, data.credits)}
+
+  ## Questions
+
+  Any questions can be directed at the primary author via: <br>
+  [GitHub](https://github.com/${data.username}) <br>
+  [Contact Me!](mailto:${data.email})
 
   ## License
   ${renderLicenseSection (data.license, data.credits)}
